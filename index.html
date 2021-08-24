@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Fustra</title>
+<!-- TODO: favicon -->
+
+<style>
+  body {
+    text-align: center;
+    line-height: 1.5;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background-color: #fdfdfd;
+  }
+
+  header, main, footer {
+    padding: 15px 10px 30px 10px;
+  }
+
+  header {
+    padding-top: 0;
+  }
+
+  main {
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  main section {
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  footer {
+    padding-bottom: 0;
+  }
+
+  .header-info {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .clients {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-self: stretch;
+    gap: 20px 25px;
+  }
+
+  .client {
+    background-color: white;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .legal {
+    margin-top: 6em;
+    font-size: 0.5em;
+    color: grey;
+  }
+</style>
+
+<header>
+  <h1>Fustra</h1>
+  <h2>We're industry experts in delivering software solutions</h2>
+  <div class="header-info">
+    <p>With our years of experience and in-depth industry expertise, we can help build the solutions your business needs.
+    <p>Our team of consultants work hand-in-hand with you to assess, advise and achieve the right solution.
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>Our Work</h2>
+
+    <div class="clients">
+      <div class="client">
+        <h3>Pollen</h3>
+        <a href="https://pollen.co/">
+          <img style="padding: 0 18px; background-color: black;" src="pollen.svg" width=210 height=164>
+        </a>
+        <h4>Selling with confidence</h4>
+        <p>We rebuilt the stock management system to support much bigger events and to prevent overselling tickets and rooms.
+      </div>
+      <div class="client">
+        <h3>Bulb</h3>
+        <a href="https://bulb.co.uk">
+          <img src="bulb.jpg" width=246 height=164>
+        </a>
+        <h4>Expanding internationally</h4>
+        <p>We built a new platform to sell energy to domestic properties in France, Spain, and Texas, giving Bulb access to market growth that exceeded that of its UK business.
+      </div>
+      <div class="client" style="position: relative;">
+        <h3>Pace</h3>
+        <a href="https://www.pacerevenue.com/">
+          <img src="pace.jpg" width=246 height=164>
+        </a>
+        <h4>Accessing the whole industry</h4>
+        <p>We created a real-time data pipeline connected to revenue management systems including Oracle and Protel, to provide market access to more than 50,000 hotels worldwide.
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <h2>Get in touch</h2>
+  <p>Start the conversation about your business challenge today.
+  <p>
+    <!-- https://johnhaller.com/useful-stuff/obfuscate-mailto -->
+    <script>
+    <!--
+    document.write('<a href="mai');
+    document.write('lto');
+    document.write(':&#105;&#110;&#102;&#111;');
+    document.write('@');
+    document.write('&#102;&#117;&#115;&#116;&#114;&#97;&#46;&#117;&#107;">');
+    document.write('&#105;&#110;&#102;&#111;');
+    document.write('@');
+    document.write('&#102;&#117;&#115;&#116;&#114;&#97;&#46;&#117;&#107;<\/a>');
+    // -->
+    </script>
+    <noscript>&#105;&#110;&#102;&#111; at
+    &#102;&#117;&#115;&#116;&#114;&#97; dot &#117;&#107;</noscript>
+  </p>
+
+  <p class="legal">
+    Fustra Limited is registered in England & Wales under Company Registration No. 11597924.
+    <br>
+    Our registered address is Ground Floor, Unit B Lostock Office Park, Lynstock Way, Lostock, Bolton, BL6 4SG.
+  </p>
+</footer>
